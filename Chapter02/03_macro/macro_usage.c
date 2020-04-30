@@ -12,12 +12,17 @@
 *  ******* Function name convetions ****
 *  Additional comments on top of each function that start with F(x)
 *  F(x) : Feature avilable in the form of functions.
+*  *********
+*  TIP: Key benefits with macro constant is global text replace. Avoid magic number in the code and
+*       its recommended to use macro.
+* *********
 *  Author: Iqram Ali
 */
 #include <stdio.h>
 #include <math.h>
 
 // F1: This simple method to define macro constant
+
 #define PI 3.14
 
 // Use undef to ddisbla the macro definition
